@@ -6,7 +6,7 @@ name: 企鹅读书-ziye12-node
 on:
   workflow_dispatch:
   schedule:
-     - cron: '0,30 0-8,14-23 * * *'
+     - cron: '*/20 0-8,14-23 * * *'
   watch:
     types: started
 
