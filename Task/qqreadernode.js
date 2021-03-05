@@ -496,7 +496,7 @@ let cookie_not_live_message = new Date(
     new Date().getTime() +
     new Date().getTimezoneOffset() * 60 * 1000 +
     8 * 60 * 60 * 1000
-  ).toLocaleString()  + "❌❌❌COOKIE失效";
+  ).toLocaleString()  + "❌❌❌COOKIE失效246";
 	  if(BOX!=1){         
         $.msg(O, cookie_not_live_message);
 if($.isNode()){      
